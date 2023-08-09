@@ -1,4 +1,5 @@
-console.log('hello world 2')
-const a = 2
+import app from './app'
 
-console.log(a)
+app.listen(3000, () => {
+	console.log('server running on port 3000')
+})
